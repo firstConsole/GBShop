@@ -16,11 +16,9 @@ extension CatalogViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: CatalogViewCell.identifier,
                                                  for: indexPath)
         
-        let phoneName = goods[indexPath.row].phones[indexPath.row].name
-        
         var content = cell.defaultContentConfiguration()
         
-        content.text = phoneName
+        content.text = "Phone here..."
         
         cell.contentConfiguration = content
         
