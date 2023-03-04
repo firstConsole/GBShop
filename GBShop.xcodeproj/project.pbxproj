@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB4A342029B3332400695DA8 /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = BB4A341F29B3332400695DA8 /* json.json */; };
 		BB9C726929AB4D3F0022D453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C726829AB4D3F0022D453 /* AppDelegate.swift */; };
 		BB9C726B29AB4D3F0022D453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C726A29AB4D3F0022D453 /* SceneDelegate.swift */; };
-		BB9C726D29AB4D3F0022D453 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C726C29AB4D3F0022D453 /* ViewController.swift */; };
-		BB9C727029AB4D3F0022D453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9C726E29AB4D3F0022D453 /* Main.storyboard */; };
+		BB9C726D29AB4D3F0022D453 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C726C29AB4D3F0022D453 /* MainViewController.swift */; };
 		BB9C727229AB4D400022D453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9C727129AB4D400022D453 /* Assets.xcassets */; };
 		BB9C727529AB4D400022D453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9C727329AB4D400022D453 /* LaunchScreen.storyboard */; };
 		BB9C728029AB4D400022D453 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C727F29AB4D400022D453 /* GBShopTests.swift */; };
 		BB9C728A29AB4D400022D453 /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C728929AB4D400022D453 /* GBShopUITests.swift */; };
 		BB9C728C29AB4D400022D453 /* GBShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C728B29AB4D400022D453 /* GBShopUITestsLaunchTests.swift */; };
+		BB9C72A529AB552B0022D453 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72A429AB552B0022D453 /* NetworkService.swift */; };
+		BB9C72A829AB599F0022D453 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72A729AB599F0022D453 /* CatalogViewController.swift */; };
+		BB9C72AB29AB59D00022D453 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72AA29AB59D00022D453 /* CartViewController.swift */; };
+		BB9C72AE29AB59FC0022D453 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72AD29AB59FC0022D453 /* ProfileViewController.swift */; };
+		BB9C72B529AB7CD60022D453 /* CatalogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72B429AB7CD60022D453 /* CatalogViewCell.swift */; };
+		BB9C72B729AB7D070022D453 /* CatalogViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72B629AB7D070022D453 /* CatalogViewController+UITableViewDelegate.swift */; };
+		BB9C72B929AB7D420022D453 /* CatalogViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72B829AB7D420022D453 /* CatalogViewController+UITableViewDataSource.swift */; };
+		BB9C72BB29AB91FB0022D453 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C72BA29AB91FB0022D453 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB4A341F29B3332400695DA8 /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
 		BB9C726529AB4D3F0022D453 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9C726829AB4D3F0022D453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB9C726A29AB4D3F0022D453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB9C726C29AB4D3F0022D453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB9C726F29AB4D3F0022D453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB9C726C29AB4D3F0022D453 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BB9C727129AB4D400022D453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9C727429AB4D400022D453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9C727629AB4D400022D453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		BB9C728529AB4D400022D453 /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9C728929AB4D400022D453 /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		BB9C728B29AB4D400022D453 /* GBShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB9C72A429AB552B0022D453 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BB9C72A729AB599F0022D453 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		BB9C72AA29AB59D00022D453 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		BB9C72AD29AB59FC0022D453 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BB9C72B429AB7CD60022D453 /* CatalogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewCell.swift; sourceTree = "<group>"; };
+		BB9C72B629AB7D070022D453 /* CatalogViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatalogViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		BB9C72B829AB7D420022D453 /* CatalogViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatalogViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		BB9C72BA29AB91FB0022D453 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +115,10 @@
 		BB9C726729AB4D3F0022D453 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				BB9C726829AB4D3F0022D453 /* AppDelegate.swift */,
-				BB9C726A29AB4D3F0022D453 /* SceneDelegate.swift */,
-				BB9C726C29AB4D3F0022D453 /* ViewController.swift */,
-				BB9C726E29AB4D3F0022D453 /* Main.storyboard */,
-				BB9C727129AB4D400022D453 /* Assets.xcassets */,
-				BB9C727329AB4D400022D453 /* LaunchScreen.storyboard */,
-				BB9C727629AB4D400022D453 /* Info.plist */,
+				BB9C729F29AB4DF90022D453 /* Environments */,
+				BB9C729E29AB4DED0022D453 /* Resources */,
+				BB9C729D29AB4DE30022D453 /* Core */,
+				BB9C729829AB4D960022D453 /* App */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -125,6 +138,129 @@
 				BB9C728B29AB4D400022D453 /* GBShopUITestsLaunchTests.swift */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		BB9C729829AB4D960022D453 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C729C29AB4DD40022D453 /* Flows */,
+				BB9C729B29AB4DCA0022D453 /* Assembly */,
+				BB9C729A29AB4DBF0022D453 /* Entity */,
+				BB9C729929AB4DA00022D453 /* BusinessLogic */,
+				BB9C726A29AB4D3F0022D453 /* SceneDelegate.swift */,
+				BB9C726829AB4D3F0022D453 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB9C729929AB4DA00022D453 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		BB9C729A29AB4DBF0022D453 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BB4A341F29B3332400695DA8 /* json.json */,
+				BB9C72BA29AB91FB0022D453 /* DataModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BB9C729B29AB4DCA0022D453 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		BB9C729C29AB4DD40022D453 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72AC29AB59E40022D453 /* ProfileViewController */,
+				BB9C72A929AB59BF0022D453 /* CartViewController */,
+				BB9C72A629AB59760022D453 /* CatalogViewController */,
+				BB9C72A229AB54AE0022D453 /* MainViewController */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		BB9C729D29AB4DE30022D453 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72A329AB550E0022D453 /* NetworkService */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BB9C729E29AB4DED0022D453 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C727329AB4D400022D453 /* LaunchScreen.storyboard */,
+				BB9C727129AB4D400022D453 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB9C729F29AB4DF90022D453 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C727629AB4D400022D453 /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		BB9C72A229AB54AE0022D453 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C726C29AB4D3F0022D453 /* MainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		BB9C72A329AB550E0022D453 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72A429AB552B0022D453 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		BB9C72A629AB59760022D453 /* CatalogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72AF29AB6D560022D453 /* CatalogViews */,
+				BB9C72A729AB599F0022D453 /* CatalogViewController.swift */,
+				BB9C72B629AB7D070022D453 /* CatalogViewController+UITableViewDelegate.swift */,
+				BB9C72B829AB7D420022D453 /* CatalogViewController+UITableViewDataSource.swift */,
+			);
+			path = CatalogViewController;
+			sourceTree = "<group>";
+		};
+		BB9C72A929AB59BF0022D453 /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72AA29AB59D00022D453 /* CartViewController.swift */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		BB9C72AC29AB59E40022D453 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72AD29AB59FC0022D453 /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		BB9C72AF29AB6D560022D453 /* CatalogViews */ = {
+			isa = PBXGroup;
+			children = (
+				BB9C72B429AB7CD60022D453 /* CatalogViewCell.swift */,
+			);
+			path = CatalogViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +369,7 @@
 			files = (
 				BB9C727529AB4D400022D453 /* LaunchScreen.storyboard in Resources */,
 				BB9C727229AB4D400022D453 /* Assets.xcassets in Resources */,
-				BB9C727029AB4D3F0022D453 /* Main.storyboard in Resources */,
+				BB4A342029B3332400695DA8 /* json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +394,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB9C726D29AB4D3F0022D453 /* ViewController.swift in Sources */,
+				BB9C72B929AB7D420022D453 /* CatalogViewController+UITableViewDataSource.swift in Sources */,
+				BB9C72A829AB599F0022D453 /* CatalogViewController.swift in Sources */,
+				BB9C72BB29AB91FB0022D453 /* DataModel.swift in Sources */,
+				BB9C72B729AB7D070022D453 /* CatalogViewController+UITableViewDelegate.swift in Sources */,
+				BB9C726D29AB4D3F0022D453 /* MainViewController.swift in Sources */,
 				BB9C726929AB4D3F0022D453 /* AppDelegate.swift in Sources */,
+				BB9C72A529AB552B0022D453 /* NetworkService.swift in Sources */,
+				BB9C72AE29AB59FC0022D453 /* ProfileViewController.swift in Sources */,
+				BB9C72AB29AB59D00022D453 /* CartViewController.swift in Sources */,
+				BB9C72B529AB7CD60022D453 /* CatalogViewCell.swift in Sources */,
 				BB9C726B29AB4D3F0022D453 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BB9C726E29AB4D3F0022D453 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB9C726F29AB4D3F0022D453 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB9C727329AB4D400022D453 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,10 +575,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3HD2DR99MJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = /Users/aleksejartamonov/Desktop/GBShop/GBShop/Environments/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,9 +588,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = firstConsole.GBShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,10 +606,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3HD2DR99MJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = /Users/aleksejartamonov/Desktop/GBShop/GBShop/Environments/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,9 +619,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = firstConsole.GBShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
